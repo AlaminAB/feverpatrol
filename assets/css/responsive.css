@@ -1,0 +1,608 @@
+
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1500px){ 
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   a.custom-btn.button-a {
+    font-size: 20px;
+}
+.bottom-banner {
+    background-size: 100% 100%;
+}
+.footer-text {
+    padding: 0px 25px;
+}
+.right-side-product-des p {
+    line-height: 22px;
+}
+.right-side-product-des {
+    /* padding: 30px 17px; */
+    max-width: 100%;
+}
+.container {
+    padding: 0 !important;
+}
+.col-sm-12,.col-md-6,.col-12{
+	padding: 0 !important;
+}
+.level-img.text-center img {
+    width: 100%;
+    max-width: 200px;
+}
+.row.pt-4 {
+    width: 100%;
+}
+.bottom-banner-text {
+    padding-left: 50%;
+}
+.bottom-banner-text h2 {
+    font-size: 31px;
+}
+.banner-section .header-title {
+    padding-left: 20px;
+}
+.banner-section .list-item {
+    padding-left: 20px;
+}
+header.py-3 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.banner-section {
+    background-size: 100% 100%;
+}
+section.Quality {
+    padding: 35px 0px;
+}
+.rating-section{
+	padding: 30px 0px;
+}
+.banner-overly-photo img {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%) scale(1.2);
+}
+.header-title h1 {
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+.list-item ul li {
+    font-size: 14px;
+}
+}
+
+
+
+@media (max-width: 1000px){
+	.container {
+    padding: 0 !important;
+}
+.col-sm-12,.col-md-6,.col-12{
+	padding: 0 !important;
+}
+.row.pt-4 {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+section.Quality {
+    padding: 35px 0px;
+}
+.rating-section{
+	padding: 30px 0px;
+}
+.container, .container-md, .container-sm {
+    max-width: 100%;
+}
+header.py-3 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+a.custom-btn.button-a {
+    font-size: 14px;
+    width: 100%;
+}
+.banner-section .header-title {
+    padding-left: 25px;
+}
+.banner-section .list-item {
+    padding-left: 25px;
+}
+.header-title h2 {
+    font-size: 26px;
+}
+.header-title p {
+    font-size: 16px;
+}
+a.banner2.custom-btn {
+    max-width: 550px;
+    font-size: 16px;
+    margin-top: 110vw;
+    transform: translateY(20px);
+}
+.main-quality {
+    display: block;
+    text-align: center;
+}
+.quality-description {
+    margin-left: 0;
+    max-width: 100%;
+
+}
+.custom-container {
+    padding: 0px 25px;
+}
+.imgandheading {
+    height: 62px;
+}
+.right-side-product-des {
+    padding: 12px 15px;
+    max-width: 100%;
+}
+.right-side-product-des p {
+    line-height: 22px;
+    font-size: 15px;
+}
+.right-side-product-des .sky {
+    color: rgb(0, 174, 239);
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+    padding-top: 14px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+.leve-des.mt-3 h4 {
+    font-size: 20px;
+}
+}
+
+@media (min-width: 768px){
+	.footer-button{
+		display: none;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   .about-a{
+   	display: none !important
+   }
+   .customer-say {
+    background: url(../img/rangextd-wifi-booster-7.png)  center center/cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.bottom-banner {
+    background-position-x: 50%;
+}
+.bottom-banner-text {
+    padding-left: 43%;
+}
+.footer-text p {
+    margin: 0;
+    color: #9B9B9B;
+    font-size: 14px;
+}
+.footer-text ul li a {
+    color: #9B9B9B;
+    font-size: 14px;
+    font-weight: 400;
+}
+.bottom-banner-text .header-title h2 {
+    font-size: 27px;
+    color: #fff;
+    font-weight: 800;
+    font-family: "Open Sans",helvetica,sans-serif;
+    line-height: 35px;
+    letter-spacing: -1px;
+}
+.bottom-banner-text  .list-item {
+    padding-right: 15px;
+}
+.custom-btn {
+    padding: 16px 30px;
+
+}
+.header-title h1 {
+    font-size: 27px;
+    line-height: 35px;
+}
+.banner-overly-photo img {
+    position: absolute;
+    top: 35%;
+    left: 0%;
+    transform: translateY(-50%) scale(1.2);
+}
+.list-item ul li {
+    padding-bottom: 10px;
+}
+}
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) { 
+ .row.pt-4 {
+    width: 100%;
+}  
+ .about-a{
+   	display: none !important
+   }
+   .banner1 {
+    background-image: url(../img/fever-patrol-ring15.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 25px 0 95vw;
+}
+   .customer-say {
+    background: url(../img/rangextd-wifi-booster-7.png) right center/cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.bottom-banner {
+    background-position-x: 50%;
+}
+.bottom-banner-text {
+    padding-left: 43%;
+}
+.footer-text p {
+    margin: 0;
+    color: #9B9B9B;
+    font-size: 14px;
+}
+.footer-text ul li a {
+    color: #9B9B9B;
+    font-size: 14px;
+    font-weight: 400;
+}
+.banner-section {
+    background: url(../img/fever-patrol-ring16.jpg) center bottom/cover no-repeat;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+}
+.right-side-product-des {
+    padding: 32px 30px;
+    max-width: 100%;
+}
+.total-rating {
+    display: block;
+}
+.right-rating {
+    padding-left: 0px;
+}
+.header-bottom p {
+    font-size: 15px;
+    line-height: 21px;
+}
+.bottom-banner-text {
+    padding-left: 35px;
+}
+
+.footer-text {
+    display: block;
+    text-align: center;
+}
+.level-img.text-center {
+    padding-top: 20px;
+}
+a.custom-btn.button-a.d-none {
+    display: none !important;
+}
+.modal_section {
+    width: 300px;
+    position: fixed;
+    top: 15px;
+        height: 107px;
+        z-index: 99999999;
+        left: 0;
+}
+.modal_img {
+    background-color: #fff;
+    margin-right: 10px;
+    padding: 17px;
+    width: 101px;
+}
+.header-title h1 {
+    font-size: 27px;
+    line-height: 35px;
+    letter-spacing: -1px;
+}
+
+a.custom-btn.button-a.d-none.d-block {
+    padding: 15px 5px;
+    font-size: 15px;
+}
+.logo img {
+    max-width: 110px;
+}
+.header-left span {
+    padding-left: 20px;
+}
+.custom-btn {
+
+    padding: 16px 30px;
+}
+.col-md-6.pr-md-0 {
+    display: flex;
+    align-items: center;
+}
+.banner-overly-photo img {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    max-width: 300px;
+}
+.main-quality {
+    text-align: center;
+    display: block;
+    padding-bottom: 20px;
+}
+.freedom-section-title h2 {
+    font-size: 21px;
+    line-height: 1.19047619;
+    font-weight: 800;
+}
+.exprience-des h2 {
+    font-size: 21px;
+}
+.custom-container.mb-5 .row {
+    flex-direction: column-reverse;
+}
+section.exprience-wrap {
+    background: #ddd;
+    padding: 30px 0px;
+    margin-top: 40px;
+}
+.customer-say-des {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 540px;
+}
+.customer-say {
+    background: url(../img/fever-patrol-ring17.jpg) center center/cover no-repeat;
+}
+.customer-say .section-title h2 {
+    font-size: 30px;
+    line-height: 34px;
+}
+.bottom-banner .row {
+    flex-direction: column-reverse;
+}
+.bottom-banner-product img {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.bottom-banner-text.p-0 {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+.custom-btn {
+    padding: 16px 9px;
+    display: block !important;
+    font-size: 16px !important;
+    line-height: 21px;
+}
+.stock-up .section-title h2 {
+    font-size: 30px;
+    color: #fff;
+    font-family: "Open Sans";
+    line-height: 36px;
+}
+.bottom-banner-text .header-title h2 {
+    font-size: 34px;
+    line-height: 40px;
+}
+.bottom-banner {
+    padding: 20px 0px;
+}
+.banner-section {
+    padding: 10px 0px;
+}
+a.custom-btn.button-a.d-none.d-block {
+    padding: 15px 5px !important;
+    font-size: 15px !important;
+}
+.logo img {
+    max-width: 100px !important;
+}
+.imgandheading {
+    height: 62px;
+    margin-right: 25px;
+}
+.bottom-banner-wrap {
+    background-image: url(../img/fever-patrol-ring18.jpg) !important;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 66vw;
+}
+.bottom-banner-wrap a.banner2.custom-btn {
+    max-width: 550px;
+    font-size: 16px;
+    margin-top: 85vw;
+    margin-bottom: 20px;
+}
+.header-title h1 {
+    font-size: 25px;
+    line-height: 31px;
+    letter-spacing: 0;
+}
+.list-item ul li br {
+    display: none;
+}
+.list-item h6 br {
+    display: none;
+}
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 575.98px) { 
+   .header-left {
+    display: block;
+    text-align: center;
+}
+.header-left span {
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: 6px;
+    font-size: 14px;
+    display: inline-block;
+    border-left: 0px solid #000;
+}
+.header-title p {
+    font-size: 18px;
+}
+.banner-section .list-item {
+    padding-left: 10px;
+}
+.banner-section .header-title {
+    padding-left: 10px;
+}
+
+.header-title h1 br {
+    display: none;
+}
+.header-title h2 br {
+    display: none;
+}
+.header-title p {
+    font-size: 16px;
+}
+.header-bottom {
+    padding: 20px 28px;
+}
+.section-title h2 br {
+    display: none;
+}
+.section-title h2 {
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+.section-title.pt-5 {
+    padding: 0px 30px;
+}
+.customer-say-des.pt-3.pb-5 h3 {
+    font-size: 18px;
+}
+.customer-say-des {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px 15px;
+}
+.bottom-banner-text {
+    padding: 0px 33px;
+}
+.footer-button a {
+    font-size: 16px !important;
+}
+.single-rating {
+    width: 100%;
+    padding-bottom: 20px;
+}
+.header-title p br {
+    display: none;
+}
+.list-item ul li {
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+.banner-section .list-item {
+    padding-left: 0;
+}
+.banner-section .header-title {
+    padding-left: 0;
+}
+.imgandheading {
+    margin-right: 20px;
+}
+.quality-description h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.quality-description p {
+    font-size: 14px;
+}
+.freedom-section-title h2 {
+   font-size: 25px;
+    line-height: 1.19047619;
+    font-weight: 700;
+}
+
+.right-side-product-des {
+    padding: 32px 10px;
+    max-width: 100%;
+}
+.exprience-des p {
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+}
+.custom-btn {
+    padding: 16px 9px;
+    display: block !important;
+   font-size: 15px !important;
+}
+.bottom-banner-text .header-title h2 {
+    font-size: 22px;
+    line-height: 26px;
+}
+.section-title.pt-5 {
+    padding: 0px 30px;
+    padding-top: 20px !important;
+}
+.footer-button a {
+    font-size: 16px !important;
+    margin: 0px 10px;
+}
+.banner1-heading span {
+    font-size: 25px;
+    display: block;
+    font-weight: 700;
+    font-family: helvetica;
+    color: #fa6400;
+}
+.banner1-heading h2 {
+    font-size: 25px;
+    color: #013B67;
+    line-height: 32px;
+}
+.header-bottom p br {
+    display: none;
+}
+.stock-up .section-title h2 {
+    font-size: 25px;
+    color: #fff;
+    font-family: "Open Sans";
+    line-height: 30px;
+    margin-top: 60px;
+}
+.stock-up-des.pt-3 .custom-btn br {
+    display: none;
+}
+.stock-up-des.pt-3 .custom-btn {
+    max-width: 600px;
+    line-height: 20px;
+}
+.customer-say-des.pt-3.pb-5 .custom-btn br {
+    display: block;
+}
+}
